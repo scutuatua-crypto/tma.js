@@ -136,8 +136,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       error-kid:
-        specifier: ^1.0.2
-        version: 1.0.2
+        specifier: ^2.0.0
+        version: 2.0.0
       fp-ts:
         specifier: ^2.16.11
         version: 2.16.11
@@ -198,8 +198,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       error-kid:
-        specifier: ^1.0.2
-        version: 1.0.2
+        specifier: ^2.0.0
+        version: 2.0.0
       fp-ts:
         specifier: ^2.16.11
         version: 2.16.11
@@ -235,8 +235,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       error-kid:
-        specifier: ^1.0.2
-        version: 1.0.2
+        specifier: ^2.0.0
+        version: 2.0.0
       fp-ts:
         specifier: ^2.16.11
         version: 2.16.11
@@ -2625,6 +2625,9 @@ packages:
 
   error-kid@1.0.2:
     resolution: {integrity: sha512-Xvq0ZrY/azCbREWKt9E/3mXDF0MkuEVVvHnOKutUhtq2O8pyneEixQ4nSFkA19Xfn+/OVSg//iVG0dxIDj7DIA==}
+
+  error-kid@2.0.0:
+    resolution: {integrity: sha512-U8lVKG2Fg7rDZ5b5bL7ZewhzWQrUYtCHlgb7SFcAgxObFgt47jR5l9dq/Kx4AW9gAmb8B2BD3VERXciU9Q9BZA==}
 
   es-abstract@1.24.0:
     resolution: {integrity: sha512-WSzPgsdLtTcQwm4CROfS5ju2Wa1QQcVeT37jFjYzdFz1r9ahadC8B8/a4qxJxM+09F18iumCdRmlr96ZYkQvEg==}
@@ -7427,6 +7430,8 @@ snapshots:
     optional: true
 
   error-kid@1.0.2: {}
+
+  error-kid@2.0.0: {}
 
   es-abstract@1.24.0:
     dependencies:

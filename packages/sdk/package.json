@@ -50,7 +50,7 @@
     "@tma.js/transformers": "workspace:^",
     "@tma.js/types": "workspace:^",
     "better-promises": "^1.0.0",
-    "error-kid": "^1.0.2",
+    "error-kid": "^2.0.0",
     "fp-ts": "^2.16.11",
     "valibot": "^1.1.0"
   },
