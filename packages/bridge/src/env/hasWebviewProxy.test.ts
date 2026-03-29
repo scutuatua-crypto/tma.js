@@ -7,6 +7,7 @@ it('should return true if passed object contains path property "TelegramWebviewP
   expect(hasWebviewProxy({ TelegramWebviewProxy: {} })).toBe(false);
   expect(hasWebviewProxy({ TelegramWebviewProxy: { postEvent: [] } })).toBe(false);
   expect(hasWebviewProxy({
+    a: 'b',
     TelegramWebviewProxy: {
       postEvent: () => {
       },
