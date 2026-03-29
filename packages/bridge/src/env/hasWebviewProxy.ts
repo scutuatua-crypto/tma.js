@@ -1,4 +1,4 @@
-import { looseObject, function as fn, is } from 'valibot';
+import * as v from 'valibot';
 
 /**
  * Returns true in case, passed value contains path `TelegramWebviewProxy.postEvent` property and
@@ -10,8 +10,8 @@ export function hasWebviewProxy<T>(value: T): value is T & {
     postEvent: (...args: unknown[]) => unknown;
   };
 } {
-  return is(
-    looseObject({ TelegramWebviewProxy: looseObject({ postEvent: fn() }) }),
-    value,
+  return typeof value === 'object' && !!value && !Array.isArray(value) && v.is(
+    v.looseObject({ TelegramWebviewProxy: v.looseObject({ postEvent: v.function() }) }),
+    { TelegramWebviewProxy: (value as Record<string, unknown>).TelegramWebviewProxy },
   );
 }
