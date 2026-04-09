@@ -13,7 +13,7 @@ export default tseslint.config(
   },
   {
     name: 'app/files-to-lint',
-    files: ['{packages,playgrounds}/**/*.{js,ts,mts,tsx,vue}'],
+    files: ['{packages,apps}/**/*.{js,ts,mts,tsx,vue}'],
     languageOptions: {
       parserOptions: {
         project: [
